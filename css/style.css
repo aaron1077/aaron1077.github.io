@@ -1,8 +1,12 @@
 body{
     width:1200px;
     background-color: deepskyblue;
-    text-align: center;
+    text-align: left;
     margin: auto;
+}
+
+header{
+    text-align: center;
 }
 
 
