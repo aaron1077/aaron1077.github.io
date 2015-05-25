@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-  <section>
-      <h2>User Login</h2>
-      <p><a href="">Close</a></p>
+  <section id="login">
+      <div id="loginHeading">
+          <h2>User Login</h2>
+          <p class="close"><a href="">Close</a></p>
+      </div>
 
       <form>
-          <label for="userName">Username</label>
-          <input type="text" id="userName" name="userName" />
-          <label for="password">Password</label>
-          <input type="text" id="password" name="password" />
+          <label id="userName" for="userNameInput">Username</label>
+          <input type="text" id="userNameInput" name="userName" /><br>
+          <label id="password" for="passwordInput">Password</label>
+          <input type="text" id="passwordInput" name="password" />
           <input type="submit" value="Login" id="loginButton" />
       </form>
+
   </section>
-  <section>
-      <h2>New User</h2>
-      <p><a href="">Close</a></p>
-      <p>
-          Click <a href="html_images.asp">here</a> to register. It's
-          fast and free!
-      </p>
+  <section id="register">
+      <div id="registerHeading">
+          <h2>New User</h2>
+          <p class="close"><a href="">Close</a></p>
+      </div>
+      <div id="link">
+          <p>Click <a href="html_images.asp">here</a> to register. It's
+          fast and free!</p>
+      </div>
   </section>
 </body>
 </html>

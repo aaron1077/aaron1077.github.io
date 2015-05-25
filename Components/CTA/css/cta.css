@@ -1,0 +1,48 @@
+body{
+    background-color: #129fe3;
+
+}
+
+header{
+    background-image: url("../img/logo.jpeg");
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    background-size: 100px;
+    height: 100px;
+
+}
+
+h1{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+header p{
+    position: absolute;
+    right: 25px;
+    bottom: 420px;
+    background-color: #ffffff;
+    padding-top: 25px;
+}
+
+#main{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+button{
+    background-color: #6ef605;
+    text-align: left;
+    padding-left: 35px;
+    margin-left: 330px;
+    width: 150px;
+    background-image: url("../img/buttonLogo.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+#last{
+    text-align: center;
+    font-size: 6px;
+}

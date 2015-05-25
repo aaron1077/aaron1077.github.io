@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+header{
+
+    width: 200px;
+    height: 380px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1{
+    background-image: url(../img/minecraft1.jpg-01.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100px;
+}
+
+ul{
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    font-size: 10px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+#icons{
+
+}
+
+#icons a{
+    text-decoration: none;
+    color: #888888;
+
+}
+
+#icons li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 4.5px;
+}
+
+#twitter{
+    background-image: url(../img/twitter.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+#facebook{
+    background-image: url(../img/facebook.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+#vine{
+    background-image: url(../img/vine.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+#gmail{
+    background-image: url(../img/gmail.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+p{
+    width: 200px;
+    height: 14px;
+    background-color: #000000;
+    color: #888888;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

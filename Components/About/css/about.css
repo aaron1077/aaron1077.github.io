@@ -1,0 +1,36 @@
+img{
+    float: right;
+}
+
+article{
+
+}
+
+h1{
+    color: #982d09;
+}
+
+#first{
+    font-size: 15px;
+    color: #538104;
+}
+
+.paragraphs{
+    font-size: 12px;
+}
+
+#four{
+    font-size: 11px;
+    color: #bfbfbf;
+    padding: 10px;
+}
+
+#five{
+    font-size: 12px;
+    padding: 10px;
+}
+
+#quote{
+    background-color: #e7e7e7;
+    width: 511px;
+}

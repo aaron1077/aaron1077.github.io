@@ -1,0 +1,66 @@
+header{
+    text-align: left;
+    float: left;
+
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#firstSection{
+    overflow: auto;
+}
+
+
+
+#firstSection img{
+    float: right;
+}
+
+#firstSection h2{
+    float: left;
+    margin-left: 200px;
+}
+
+#firstSection p{
+    float: left;
+    width: 175px;
+    font-size: 12px;
+    margin-left: 200px;
+
+}
+
+
+#secondSection p{
+    float: left;
+    width: 200px;
+    font-size: 12px;
+    margin-left: 330px;
+}
+
+#secondSection h2{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+#secondSection img{
+    margin-left:50px;
+    padding-bottom: 20px;
+}
+
+#button a{
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    background-image: url("../img/button.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 100px;
+
+}

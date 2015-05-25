@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Blog</title>
     <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+
 </head>
 <body>
-    <section>
-        <h1>Weblog</h1>
-        <ul>
+    <section id="firstSection">
+        <h1 id="firstH1">Weblog</h1>
+        <ul id="firstUl">
             <li><h3>Categories</h3></li>
             <li><a href="">Design</a></li>
             <li><a href="">Expression Engine</a></li>
@@ -17,7 +19,7 @@
             <li><a href="">Tutorials</a></li>
             <li><a href="">All Categories</a></li>
         </ul>
-        <ul>
+        <ul id="secondUl">
             <li><h3>Popular Entries</h3></li>
             <li><a href="">31Three.com Redesigned</a></li>
             <li><a href="">Happy Daddy</a></li>
@@ -28,35 +30,36 @@
         </ul>
 
         <article>
+            <div id="wing"></div>
             <h1>So long my friend...</h1>
 
-            <p> My dear friend and design comrade <a href="">Drew Warkentin</a> recieved his US Visa this past Thursday after almost 2
+            <p id="firstP"> My dear friend and design comrade <a href="">Drew Warkentin</a> recieved his US Visa this past Thursday after almost 2
             years of red-tape. Yesterday while Drew was on a plane to California a U2 song came on the radio that seemed very fitting..
         </p>
-            <p>
-                All the obstacles in my way, now
-                Are disappearing every day, now
-                I'm getting closer
-                We're getting closer to home
+            <p id="secondP">
+                All the obstacles in my way, now<br>
+                Are disappearing every day, now<br>
+                I'm getting closer<br>
+                We're getting closer to home<br>
                 It won't be long until the summer comes
             </p>
-            <p>Congratulations Drew... I'm sad to see you go, but relieved that you finally made it.</p>
+            <p id="thirdP">Congratulations Drew... I'm sad to see you go, but relieved that you finally made it.</p>
         </article>
     </section>
 
     <footer>
-        <p><a href="html_images.asp">Drew Warkentin</a></p>
-        <p>
+        <p id="footerLink"><a href="html_images.asp">Drew Warkentin</a></p>
+        <p id="footerP">
             Thank you my friend! All the best luck to you at 31Three.
         </p>
     </footer>
 
-    <section>
-        <img src="img/blog.png" alt="">
+    <section id="secondSection">
+        <img src="img/person.jpeg" alt="">
         <h4>
-            Hello my name is...
+           <strong>Hello my name is...</strong>
         </h4>
-        <p>
+        <p id="aboutMe">
             Jesse Bennett-Chamberlain, a stay at home designer from Grimsby ON, Canada. To get in touch use the <a href="html_images.asp">contact form.</a>
         </p>
 
