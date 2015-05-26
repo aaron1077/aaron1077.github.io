@@ -1,53 +1,77 @@
+
 header{
     height: 800px;
     width: 500px;
-    background-image: url("../img/header.jpeg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    background: url("../img/header.jpeg") no-repeat;
+    background-size:100% auto;
+}
+
+h1:nth-child(1) {
+    position: absolute;
+    left: 185px;
+    top: 117px;
+    text-align: center;
+    transform: rotate(355deg);
+    font-family: 'Leckerli One', cursive;
+    font-size: 20px;
+}
+
+h1:nth-child(2) {
+    position: absolute;
+    left: 190px;
+    top: 105px;
+    text-align: center;
+    transform: rotate(355deg);
+    font-family: 'Leckerli One', cursive;
+    line-height: 30px;
 
 
 }
 
-h1 {
+h1:nth-child(3) {
     position: absolute;
-    left: 70px;
-    top: 115px;
-
-
+    left: 295px;
+    top: 155px;
+    text-align: center;
+    transform: rotate(355deg);
+    font-family: 'Leckerli One', cursive;
+    font-size: 20px;
 }
-#portfolio {
+
+li:nth-child(1) {
     position: absolute;
-    left: 25px;
-    top: 25px;
+    left: 50px;
+    top: 50px;
     list-style-type: none;
-
+    transform: rotate(20deg);
 }
 
-#contact {
+li:nth-child(2) {
     position: absolute;
-    left: 445px;
-    top: 25px;
+    left: 420px;
+    top: 50px;
     list-style-type: none;
-
+    transform: rotate(-20deg);
 }
 
-#about {
+li:nth-child(3) {
     position: absolute;
-    left: 25px;
-    top: 290px;
+    left: 50px;
+    top: 210px;
     list-style-type: none;
-
+    transform: rotate(8deg);
 }
 
-#services {
+li:nth-child(4) {
     position: absolute;
-    left: 445px;
-    top: 290px;
+    left: 420px;
+    top: 210px;
     list-style-type: none;
-
+    transform: rotate(-8deg);
 }
 
 a{
     color: #ffffff;
     text-decoration: none;
 }
+
