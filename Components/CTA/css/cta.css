@@ -1,48 +1,41 @@
-body{
-    background-color: #129fe3;
 
+
+body{
+    background-color: #c5d5e2;
 }
 
 header{
-    background-image: url("../img/logo.jpeg");
+    background-image: url("../img/logo-03.png");
     background-repeat: no-repeat;
-    margin-top: 25px;
-    background-size: 100px;
+    background-size: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+img:nth-child(1){
+    margin-left: 1298px;
+    position: relative;
+    bottom: 30px;
+}
+
+p:nth-child(2){
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+img:nth-child(3){
+    background-image: url("../img/button-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: 570px;
     height: 100px;
 
 }
 
-h1{
-    padding-left: 100px;
-    padding-top: 60px;
-}
-
-header p{
-    position: absolute;
-    right: 25px;
-    bottom: 420px;
-    background-color: #ffffff;
-    padding-top: 25px;
-}
-
-#main{
+p:nth-child(4){
     text-align: center;
-    margin-top: 40px;
-    font-size: 35px;
-}
-
-button{
-    background-color: #6ef605;
-    text-align: left;
-    padding-left: 35px;
-    margin-left: 330px;
-    width: 150px;
-    background-image: url("../img/buttonLogo.jpeg");
-    background-repeat: no-repeat;
-
-}
-
-#last{
-    text-align: center;
-    font-size: 6px;
+    font-size: 10px;
+    margin-right: 50px;
+    line-height: 0px;
 }

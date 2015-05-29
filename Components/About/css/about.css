@@ -1,32 +1,56 @@
+body{
+    background-image: url("../img/grid.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 img{
     float: right;
+    width: 750px;
+    height: 800px;
+    position: relative;
+    bottom: 128px;
+    left: 15px;
+}
+
+article{
+    margin-left: 50px;
+    margin-top: 60px;
 }
 
 h1{
     color: #982d09;
+    font-size: 45px;
+
 }
 
-#first{
-    font-size: 15px;
+p:nth-of-type(1){
+    font-size: 26px;
     color: #538104;
 }
 
-.paragraphs{
-    font-size: 12px;
+p:nth-of-type(2){
+    font-size: 18px;
 }
 
-#four{
-    font-size: 11px;
+p:nth-of-type(3){
+    font-size: 18px;
+}
+
+#quote p:nth-of-type(1){
+    font-size: 17px;
     color: #bfbfbf;
     padding: 10px;
 }
 
-#five{
-    font-size: 12px;
-    padding: 10px;
+#quote p:nth-of-type(2){
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 15px;
 }
 
 #quote{
     background-color: #e7e7e7;
-    width: 511px;
+    width: 900px;
 }

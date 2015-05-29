@@ -6,116 +6,134 @@ body{
 }
 
 header{
-    background-image: url("../img/red.gif");
-    background-repeat: no-repeat;
+
     margin-left: 100px;
 }
 
-h1{
-    margin-left: 30px;
+#logo{
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: #ff0000;
+    border-radius: 50%;
+}
 
+h1{
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 nav li{
-    display: inline;
+    display: inline-block;
     float: right;
     padding: 10px;
-
     text-transform: uppercase;
     font-size: 10px;
-
+    position: relative;
+    right: 130px;
 }
 
 a{
     color: #ffffff;
+    text-decoration: none;
+}
+
+#underline{
+    text-decoration: underline;
 }
 
 #firstNumber{
-    padding-left: 130px;
+    padding-left: 225px;
     padding-top: 30px;
     line-height: 0;
 }
 
-#firstP{
-    font-size: 10px;
-
+#firstNumber p:nth-child(1){
+    font-size: 14px;
 }
 
-#secondP{
-   font-size: 25px;
+#firstNumber p:nth-child(2){
+   font-size: 40px;
 }
 
-#thirdP{
-    font-size: 10px;
+#firstNumber p:nth-child(3){
+    font-size: 14px;
     position: absolute;
-    right: 503px;
-    top: 140px;
+    right: 924px;
+    top: 158px;
 
 }
 
 #address{
     width: 80px;
     float: right;
-    margin-right: 40px;
+    margin-right: 180px;
 }
 
 #secondNumber{
-    padding-left: 130px;
+    padding-left: 225px;
     padding-top: 30px;
     line-height: 0;
 }
 
-#secondFirstP{
-     font-size: 10px;
+#secondNumber p:nth-child(1){
+     font-size: 14px;
 }
 
-#secondSecondP{
-      font-size: 25px;
+#secondNumber p:nth-child(2){
+      font-size: 40px;
 }
 
-#secondThirdP{
-       font-size: 10px;
+#secondNumber p:nth-child(3){
+       font-size: 14px;
        position: absolute;
-       right: 478px;
-       top: 228px;
+       right: 890px;
+       top: 280px;
 }
 
 #email{
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 350px;
     background-color: #c90e0e;
     width: 170px;
     height: 100%;
     padding-left: 12px;
 }
 
-#twitter{
+#icons li:nth-child(1){
     background-image: url("../img/twitter.jpeg");
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    border-radius: 50%;
     float: left;
-    margin-left: 300px;
-    margin-top: 40px;
+    margin-left: 450px;
+    margin-top: 20px;
     list-style-type: none;
 }
 
-#facebook{
+#icons li:nth-child(2){
     background-image: url("../img/facebook.jpeg");
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    border-radius: 50%;
     float: left;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
     list-style-type: none;
 
 }
 
-#vine{
+#icons li:nth-child(3){
     background-image: url("../img/vine.png");
     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-    margin-top: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
     float: left;
     list-style-type: none;
 }

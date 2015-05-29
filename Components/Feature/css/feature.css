@@ -1,66 +1,91 @@
 header{
-    text-align: left;
     float: left;
+    width: 320px;
+    height: 1120px;
+    border-right: 1px solid #bfbfbf;
+    padding-left: 40px;
+}
 
+h1{
+    margin-left: 39px;
+    font-size: 50px;
+    color: #bfbfbf;
 }
 
 nav li{
     list-style-type: none;
+    font-size: 35px;
+    line-height: 45px;
 }
 
-nav li a{
+a{
     text-decoration: none;
+    color: #bfbfbf;
+}
+
+#design{
     color: #000000;
 }
 
 #firstSection{
     overflow: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #bfbfbf;
 }
 
 
 
 #firstSection img{
     float: right;
+    margin-right: 200px;
+    width: 400px;
+    height: 450px;
 }
 
 #firstSection h2{
     float: left;
-    margin-left: 200px;
+    margin-left: 100px;
+    font-size: 30px;
 }
 
 #firstSection p{
     float: left;
-    width: 175px;
-    font-size: 12px;
-    margin-left: 200px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 100px;
 
-}
-
-
-#secondSection p{
-    float: left;
-    width: 200px;
-    font-size: 12px;
-    margin-left: 330px;
-}
-
-#secondSection h2{
-    margin-left: 330px;
-    margin-top: 50px;
 }
 
 #secondSection img{
-    margin-left:50px;
-    padding-bottom: 20px;
+    float: right;
+    width: 300px;
+    height: 500px;
+    margin-right: 275px;
+    position: relative;
+    bottom: 80px;
+
 }
+
+#secondSection p{
+
+    width: 275px;
+    font-size: 20px;
+    margin-left: 460px;
+}
+
+#secondSection h2{
+    font-size: 30px;
+    margin-left: 460px;
+    margin-top: 50px;
+}
+
 
 #button a{
     position: absolute;
-    left: 200px;
-    top: 350px;
+    left: 245px;
+    top: 600px;
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
     width: 130px;
     height: 100px;
-
 }

@@ -1,6 +1,16 @@
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: #FF4136;
+    }
+}
+
+
 #login{
     width:500px;
-    height: 200px;
+    height: 206px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -8,39 +18,60 @@
 #loginHeading{
     border: 1px solid black;
     background-color: #bfbfbf;
-
-
+    height: 49px;
 }
 
 h2{
     text-align: left;
-    float: left;
-
+    font-size: 19px;
+    margin-left: 60px;
 }
 .close{
-    padding-left: 400px;
+    width:45px;
+    height:20px;
+    margin-left: 425px;
+    position: relative;
+    bottom: 54px;
+    text-align: center;
+    background-color: #737373;
+}
+
+.x{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 form{
-    background-color: #6fff00;
-    height: 150px;
+    background: linear-gradient(lightgreen, darkgreen);
+    height: 130px;
+    padding-top: 25px;
 }
+
+#userName{
+    padding-left: 115px;
+}
+
 
 label{
     display: block;
-
+    position: relative;
+    right: 65px;
 }
 
-input{
-    margin-left: 115px;
+.input{
+    margin-left: 50px;
+    padding-left: 125px;
+
 }
 
 #loginButton{
-    width: 90px;
+    width: 85px;
     position: absolute;
-    left: 375px;
+    left: 825px;
     background-color: #4cae00;
     color: #ffffff;
+    animation: pulse 4s infinite;
 
 }
 
@@ -51,28 +82,41 @@ input{
 
 #register{
     width: 500px;
-    height: 165px;
+    height: 145px;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 0px auto;
+    background: linear-gradient(lightcyan, deepskyblue);
 }
 
 #registerHeading{
     border: 1px solid black;
     background-color: #bfbfbf;
+    height: 49px;
 
 }
+
+
 
 #link {
     text-align: center;
     border: 1px solid black;
-    background-color: #0000FF;
-    height: 75px;
+    background-color: #004898;
+    width: 97%;
+    height: 55px;
     padding-top: 25px;
     margin-top: 6px;
     color: #ffffff;
+    position: relative;
+    left: 6px;
 }
 
-a{
-    color: #4d4dff;
+#here{
+    color: #4f9df4;
+    animation-name: register;
+    animation-duration: 4s;
 }
 
+p{
+    position: relative;
+    bottom: 6px;
+}
